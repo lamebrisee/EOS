@@ -1,5 +1,5 @@
 EOSCoding
-Many tips to improve the speed time on issues from students.
+Many tips to improve the speed time on issues from other students in the academy.
 
 code to test and use for learning curve
 
