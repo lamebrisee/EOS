@@ -1,6 +1,9 @@
 The name of the game
+
 A valid transaction on the EOSIO blockchain needs to be signed by a "private key".
-The signature will be done will require a specific "permission". 
+
+The signature will be done will require a specific "permission".
+
 This permission will be held by an account
 
 NOTE: with EOS we need to alreday have an account to create a new one.
@@ -8,9 +11,11 @@ NOTE: with EOS we need to alreday have an account to create a new one.
       we are using the eosio account on the Develpement environment.
 
 1)Creating an account inside a wallet
+
 cleos create account eosio [accountNameHere] [ownerKey] [activeKey]
 
 example:
+
 cleos create account eosio alice 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
 
 NOTE: 5KQwrPbwd....kvFD3 is the owner key for the eosio account
@@ -30,7 +35,9 @@ You should see a message similar to the following:
 
 permissions:
      owner     1:    1 EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+     
         active     1:    1 EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+        
 memory:
      quota:       unlimited  used:      3.758 KiB
 
@@ -45,4 +52,4 @@ cpu bandwidth:
      limit:              unlimited
 
 Note : EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV / 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
-this is public/private key pair for the eosio user on the Develpement environment.
+this is the public/private key pair for the eosio user on the Develpement environment.
