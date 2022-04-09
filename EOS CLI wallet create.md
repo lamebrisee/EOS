@@ -1,6 +1,7 @@
 EOSIO CLI commands (LINUX)
 
 Misconception about WALLETS:
+
 A common misconception in cryptocurrency regarding wallets is that they store tokens.
 However, in reality, a wallet is used to store private keys in an encrypted file to sign transactions.
 Wallets do not serve as a storage medium for tokens.
@@ -9,6 +10,7 @@ The name of the GAME
 Creating a wallet which will contaim keys pairs (public/private) used by an account to sign transactions on the blockchain.
 
 NOTE: with ETHEREUM a Smart Contract is deployed to an adress
+
       with EOS it is deployed by an account    
 
 1)Creating wallet
