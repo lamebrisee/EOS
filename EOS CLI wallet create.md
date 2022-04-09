@@ -12,9 +12,13 @@ NOTE: with ETHEREUM a Smart Contract is deployed to an adress
       with EOS it is deployed by an account    
 
 1)Creating wallet
-2)Open the Wallet         
+
+2)Open the Wallet
+
 3)Unlock a Wallet
+
 4)Creating "eosio user" keys to later import on a wallet
+
 5)Import the Development Key
 
 1)Creating wallet
