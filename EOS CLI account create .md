@@ -2,11 +2,11 @@
 
 A valid transaction on the EOSIO blockchain needs to be signed by a "private key".
 
-The signature to be done will require a specific "permission".**
+The signature to be done will require a specific "permission".
 
 This permission will be held by an account
 
-This may be an over simplification but it helps to get the concepts and big picture.
+This is an over simplification but it helps to get the concepts and big picture.
 
 NOTE: with EOS we need to already have an account to create a new one.
 ---
