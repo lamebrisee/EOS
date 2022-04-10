@@ -1,8 +1,8 @@
-The name of the game
+# The name of the game
 
 A valid transaction on the EOSIO blockchain needs to be signed by a "private key".
 
-The signature will be done will require a specific "permission".
+The signature to be done will require a specific "permission".
 
 This permission will be held by an account
 
@@ -10,7 +10,7 @@ NOTE: with EOS we need to alreday have an account to create a new one.
       this is why we are using the default "eosio" account present on every chain
       we are using the eosio account on the Develpement environment.
 
-1)Creating an account inside a wallet
+# 1)Creating an account inside a wallet
 
 cleos create account eosio [accountNameHere] [ownerKey] [activeKey]
 
@@ -23,7 +23,7 @@ NOTE: 5KQwrPbwd....kvFD3 is the owner key for the eosio account
 you should see a confirmation message to the following for each command that confirms that the transaction has been broadcast:
 
 executed transaction: 40c605006de...  200 bytes  153 us
-#         eosio <= eosio::newaccount            {"creator":"eosio","name":"alice","owner":{"threshold":1,"keys":[{"key":"EOS5rti4LTL53xptjgQBXv9HxyU...
+         eosio <= eosio::newaccount            {"creator":"eosio","name":"alice","owner":{"threshold":1,"keys":[{"key":"EOS5rti4LTL53xptjgQBXv9HxyU...
 warning: transaction executed locally, but may not be confirmed by the network yet    ]
 
 get account info
