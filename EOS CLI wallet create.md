@@ -79,6 +79,6 @@ You'll be prompted for a private key, enter the eosio development key provided b
 
 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
 
-## THIS PUBLIC PRIVATE KEY SHOULD NEVER BE USED FOR PRODUCTION !! 
+## THIS PUBLIC PRIVATE KEY SHOULD NEVER BE USED FOR PRODUCTION !!!
 
 
